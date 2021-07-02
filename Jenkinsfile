@@ -7,7 +7,7 @@ pipeline {
             steps {
                
                 echo 'Building..'
-                echo 'started coding' | wc
+                sh 'echo "started coding" | wc '
             }
         }
         stage('Test') {
