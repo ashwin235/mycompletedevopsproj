@@ -8,7 +8,7 @@ pipeline {
                
                 echo "Building.."
                 sh 'echo "started coding" | wc '
-                touch  'file1.txt'
+              sh '  touch  file1.txt'
             }
         }
         stage('Test') {
