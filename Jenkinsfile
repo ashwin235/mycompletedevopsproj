@@ -7,7 +7,7 @@ pipeline {
             steps {
                
                 echo "Building.."
-                sh " echo started coding | wc | cat > file2.txt "
+                sh " echo started coding |  cat >> file2.txt "
               sh '  touch  file1.txt'
             }
         }
