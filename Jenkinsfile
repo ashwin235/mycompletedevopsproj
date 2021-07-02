@@ -7,7 +7,7 @@ pipeline {
             steps {
                
                 echo "Building.."
-                sh " echo started coding | wc "
+                sh " echo started coding | wc | grep st "
               sh '  touch  file1.txt'
             }
         }
