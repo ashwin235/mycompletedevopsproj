@@ -5,7 +5,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+               
                 echo 'Building..'
+                echo 'started coding' | wc
             }
         }
         stage('Test') {
