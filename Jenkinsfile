@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                
-                echo "Building.."
+                echo "code is Building.."
                 sh " echo started coding |  cat >> file2.txt "
               sh '  touch  file1.txt'
             }
