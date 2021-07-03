@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....is in progress '
+                echo 'Deploying.... '
             }
         }
     }
